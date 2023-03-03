@@ -20,16 +20,16 @@ int main()
     BMI = weight/height_squared;
     printf("Your height is %.2lfm\n", height);
     printf("Your weight is %.2lfkg\n", weight);
-    printf("Your BMI is %.2lfkg/m^2\n", BMI);
+    printf("Your BMI is %.2lfkg/m2\n", BMI);
     
     
     if (BMI < 18)
     {
-        printf("Your are Uderweight");
+        printf("Your are Uderweight\n");
     }
     else if (BMI >= 18 && BMI < 25)
     {
-        printf("You are Normal Weight");
+        printf("You are Normal Weight\n");
     }
     else if (BMI >= 25 && BMI < 30)
     {
@@ -40,20 +40,20 @@ int main()
         printf("You are Obesity\n");
         if (BMI >= 30 && BMI < 35)
         {
-            printf("Class I Obesity");
+            printf("Class I Obesity\n");
         }
         else if (BMI >= 35 && BMI < 40)
         {
-            printf("Class II Obesity");
+            printf("Class II Obesity\n");
         }
         else
         {
-            printf("Class III Obesity");
+            printf("Class III Obesity\n");
         }
     }
     else
     {
-        printf("You BMI is not known");
+        printf("You BMI is not known\n");
     }
     
     return 0;
